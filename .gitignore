@@ -1,0 +1,16 @@
+# 依赖
+node_modules/
+
+# 运行产物（报告与结构化结果已入库，其余不入库）
+data/*.tmp
+logs/
+
+# 文献全文（体积大且有版权限制，不入库）
+literature/
+
+# 本地环境
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

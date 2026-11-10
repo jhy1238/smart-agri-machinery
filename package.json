@@ -1,0 +1,35 @@
+{
+  "name": "smart-agri-machinery",
+  "version": "1.0.0",
+  "description": "智能农机无人作业系统软件原型：GNSS/RTK+IMU 融合定位、视觉杂草识别、全覆盖路径规划、多机协同调度、纯跟踪控制与农机物联网遥测（Node.js ESM，零第三方依赖）",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "test": "node src/selftest.mjs",
+    "start:quick": "node src/cli.mjs --quick"
+  },
+  "keywords": [
+    "smart-agriculture",
+    "autonomous-tractor",
+    "coverage-path-planning",
+    "dubins",
+    "ekf",
+    "j1939",
+    "isobus",
+    "precision-farming"
+  ],
+  "author": "jhy1238",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhy1238/smart-agri-machinery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhy1238/smart-agri-machinery/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
